@@ -1,0 +1,25 @@
+.questions {
+  background-color: #faf9f8;
+  color: #222222;
+}
+
+.questions .container {
+  width: 100%;
+}
+.questions a {
+  font-size: 12px !important;
+}
+.questions h3 {
+  font-size: 20px;
+}
+.questions h5 {
+  font-size: 14px;
+}
+.questions p {
+  font-size: 12px;
+}
+
+.questions li {
+  list-style-position: inside;
+  font-size: 12px;
+}

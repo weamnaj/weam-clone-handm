@@ -1,0 +1,17 @@
+.about-us {
+  background-color: #faf9f8;
+  color: #000;
+}
+
+.about-us .container {
+  width: 100%;
+  max-width: 1222px;
+}
+
+.about-us h1 {
+  font-size: 32px !important;
+}
+
+.about-us h2 {
+  font-size: 24px !important;
+}

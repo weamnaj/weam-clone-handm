@@ -1,0 +1,96 @@
+.review-container {
+  background: #fafafa;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 32px 18px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+h5 {
+  color: #b71c1c;
+  font-weight: bold;
+}
+
+hr {
+  border-top: 2px solid #b71c1c;
+  margin: 12px 0 24px 0;
+}
+
+.form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control,
+.form-select {
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  font-size: 1rem;
+  padding: 8px 12px;
+  background: #fff;
+  transition: border-color 0.2s;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #b71c1c;
+  box-shadow: 0 0 0 2px #fbe9e7;
+}
+
+button[type="submit"].btn-dark {
+  background: #b71c1c;
+  border: none;
+  border-radius: 24px;
+  padding: 8px 32px;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+button[type="submit"].btn-dark:hover {
+  background: #d32f2f;
+}
+
+.btn-outline-dark {
+  border-radius: 24px;
+  padding: 8px 32px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+a {
+  color: #b71c1c;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #d32f2f;
+}
+
+@media (max-width: 768px) {
+  .review-container {
+    padding: 16px 4px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
+  .form-label {
+    font-size: 0.95rem;
+  }
+  .form-control,
+  .form-select {
+    font-size: 0.95rem;
+    padding: 6px 8px;
+  }
+  button[type="submit"].btn-dark,
+  .btn-outline-dark {
+    padding: 7px 16px;
+    font-size: 0.95rem;
+  }
+}

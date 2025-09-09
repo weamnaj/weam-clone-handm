@@ -1,0 +1,77 @@
+.registerPage .left-div,
+.registerPage .right-div {
+  padding: 20px;
+  border: #842a2a;
+  /* Add a border around divs */
+}
+
+.registerPage .social-media-buttons {
+  display: block;
+  gap: 15px;
+  /* Space between icons */
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 0;
+  width: 300px;
+}
+
+.registerPage .social-media-buttons a {
+  color: #000;
+  /* Change color as needed */
+  text-decoration: none;
+}
+
+.registerPage .border-top-only {
+  border: none;
+  /* Remove all borders */
+  border-bottom: 1px solid rgb(0, 0, 0);
+  /* Add only top border */
+  border-radius: 0;
+  /* Remove border radius */
+  outline: none;
+  /* Remove outline on focus */
+  padding-top: 20px;
+}
+
+.registerPage .btn_style {
+  background-color: #000000;
+  color: white;
+  border-radius: 0;
+  /* padding: 10px 20px; */
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.registerPage .row-style {
+  margin-top: 100px;
+  border-top: 0.5px solid #9f9292;
+}
+.registerPage .text-right {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.registerPage .row-style {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .registerPage .left-div,
+  .registerPage .right-div {
+    text-align: center; /* Center text in tablet view */
+  }
+  .registerPage .social-media-buttons {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .registerPage .left-div,
+  .registerPage .right-div {
+    text-align: center;
+  }
+}
